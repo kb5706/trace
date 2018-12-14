@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+    <start>
+        <step>up</step>
+        <step>down</step>
+       <step>left</step>
+       <step>right</step>
+       <step>leftup</step>
+       <step>leftdown</step>
+       <step>rightup</step>
+       <step>rightdown</step> 
+    </start>
