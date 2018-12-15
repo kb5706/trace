@@ -31,27 +31,28 @@ class MoveHandler(sax.ContentHandler): #继承ContentHandler类
             print("make the original point green")
         if name == "step":
             print("step is "+self._content)
-            if self._content == "up":
-                self.y = self.y  +1
-            if self._content == "down":
-                self.y = self.y - 1
-            if self._content == "left":
-                self.x = self.x -1
-            if self._content == "right":
-                self.x = self.x +1
-            if self._content == "leftup":
-                self.x = self.x -1
-                self.y = self.y +1
-            if self._content == "leftdown":
-                self.y = self.y -1
-                self.x = self.x -1
-            if self._content == "rightup":
-                self.y = self.y +1
-                self.x = self.x +1
-            if self._content == "rightdown":
-                self.y = self.y -1
-                self.x = self.x +1
-
+            # #以下区块是判断移动方向，并按照相应方向进行坐标计算，但是运行报错，所以暂且注释##
+            # if self._content == "up":
+            #     self.y = self.y  +1
+            # if self._content == "down":
+            #     self.y = self.y - 1
+            # if self._content == "left":
+            #     self.x = self.x -1
+            # if self._content == "right":
+            #     self.x = self.x +1
+            # if self._content == "leftup":
+            #     self.x = self.x -1
+            #     self.y = self.y +1
+            # if self._content == "leftdown":
+            #     self.y = self.y -1
+            #     self.x = self.x -1
+            # if self._content == "rightup":
+            #     self.y = self.y +1
+            #     self.x = self.x +1
+            # if self._content == "rightdown":
+            #     self.y = self.y -1
+            #     self.x = self.x +1
+            # ###########################################
     def characters(self,content):
         self._content = content
 
