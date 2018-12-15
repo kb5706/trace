@@ -28,7 +28,7 @@ class MoveHandler(sax.ContentHandler): #继承ContentHandler类
             self.y = coordinate[1]
             print("x is " + self.x)
             print("y is " + self.y)
-            #self.x =
+            print("make the original point green")
         if name == "step":
             print("step is "+self._content)
             if self._content == "up":
