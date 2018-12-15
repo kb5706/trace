@@ -22,6 +22,13 @@ class MoveHandler(sax.ContentHandler): #继承ContentHandler类
             print("end trace")
         if name == "beginspot":
             print("beginspot is "+self._content)
+            coordinate = self._content.split(",")
+            print(coordinate)
+            self.x = coordinate[0]
+            self.y = coordinate[1]
+            print("x is " + self.x)
+            print("y is " + self.y)
+            #self.x =
         if name == "step":
             print("step is "+self._content)
             if self._content == "up":
