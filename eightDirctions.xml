@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <trace>
-  <beginspot>10,10</beginspot>
+  <beginspot>100，100</beginspot>
   <step>up</step>
   <step>down</step>
   <step>left</step>

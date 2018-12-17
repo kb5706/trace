@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<trace>
+  <beginspot>0,500</beginspot>
+  <step>up</step>
+  <step>right</step>
+  <step>down</step>
+  <step>right</step>
+  <step>down</step>
+  <step>left</step>
+  <step>rightdown</step>
+  <step>down</step>
+  <step>leftdown</step>
+  <step>down</step>
+  <step>right</step>
+ <step>rightup</step>
+ <step>right</step>
+<step>up</step>
+ <step>leftup</step>
+</trace>
